@@ -1,0 +1,21 @@
+{
+  "pretrained": "nvidia/segformer-b2-finetuned-ade-512-512",
+  "img_size": 512,
+  "epochs": 4,
+  "batch_size": 4,
+  "lr": 6e-05,
+  "weight_decay": 0.01,
+  "warmup_steps": 300,
+  "grad_clip": 1.0,
+  "dice_weight": 0.5,
+  "amp": true,
+  "val_fraction": 0.05,
+  "test_fraction": 0.05,
+  "limit": null,
+  "num_workers": 0,
+  "seed": 42,
+  "output_dir": "outputs",
+  "log_every": 20,
+  "resume": false,
+  "device": "auto"
+}

@@ -1,0 +1,9 @@
+{
+  "best_val_mean_iou": 0.7152272125782809,
+  "epochs_run": 4,
+  "params": {
+    "total": 27360466,
+    "trainable": 27360466
+  },
+  "total_train_time_s": 5666.5
+}

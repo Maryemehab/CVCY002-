@@ -1,0 +1,6 @@
+# Normalise line endings across Windows / Linux contributors
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.pdf binary
+*.safetensors binary
